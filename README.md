@@ -18,3 +18,8 @@
 * последний — командами git reset --soft и git restore;
 * предпоследний — командой git reset --mixed и git restore;
 * первый — командой git reset --hard.
+
+#### Нужно удалять на один commit ниже
+- самый мягкий способ git reset --soft <commit>
+- средний способ git reset --mixed <commit>
+- самый жесткий способ git reset --hard <commit>
